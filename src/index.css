@@ -1,0 +1,49 @@
+.profilePhoto {
+    position: relative;
+    margin: 10px 0;
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 21%;
+    height: 88%;
+    top: 0;
+    z-index: 2;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.jobContent {
+    /* display: flex; */
+}
+
+.jobInnerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.skillsDiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titleDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.titleDiv span {
+    font-size: 20px;
+    font-weight: 700;
+}

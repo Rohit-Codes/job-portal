@@ -1,0 +1,58 @@
+.leftMenuDIv ul {
+    padding: 0;
+    list-style: none;
+}
+
+.leftMenuDIv {
+    margin-top: 2rem;
+}
+.otherlinkdiv{
+    display: flex !important;
+}
+.leftMenuDIv ul li .menuLink {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.leftMenu {
+    display: flex;
+    cursor: pointer;
+}
+
+.leftMenuDIv ul li .menuLink.active {
+    background: #236AC9;
+
+}
+
+.profileInnerContainer {
+    padding: 2rem 3rem;
+}
+
+
+
+
+.leftMenu span {
+    margin-left: 5px;
+}
+
+.profileImgDiv {
+    position: relative;
+}
+
+.profileImgDiv  input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 6%;
+    height: 100%;
+    top: 0px;
+    z-index: 2;
+    padding: 3px;
+    cursor: pointer;
+    background: blue;
+    border-radius: 10px;
+}

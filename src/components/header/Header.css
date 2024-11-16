@@ -1,0 +1,48 @@
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    background: #303030ab;
+    border-bottom: 1px solid #80808061;
+}
+
+.profileRightHeader {
+    position: sticky;
+    top: 0;
+}
+
+.menuLink ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menuLink ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #dfdfdf;
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.profileLeftContainer {
+    width: 15vw;
+    height: 100vh;
+    background: #303030ab;
+    border-right: 1px solid #80808061;
+    padding: 1rem;
+}
+
+.profileRightContainer {
+    width: 85vw;
+    height: 100vh;
+
+}

@@ -1,0 +1,29 @@
+.signUpContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.signupBox {
+    width: 28%;
+    padding: 10px;
+    position: relative;
+}
+
+.loaderDiv {
+    width: 98%;
+    height: 97%;
+    background: #ffffff1a;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    z-index: 2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
